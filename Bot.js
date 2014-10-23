@@ -1,8 +1,8 @@
 var PlugAPI = require('plugapi');
 
 var bot = new PlugAPI({
-    "email": "natzkiPlaysMinecraft@gmail.com",
-    "password": "Minecraft-hg"
+    "email": "",
+    "password": ""
 });
 bot.connect('/mineplex-official'); // The part after https://plug.dj
 
