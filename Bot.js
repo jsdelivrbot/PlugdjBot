@@ -1,5 +1,3 @@
-var PlugAPI = require('plugapi');
-
 var bot = new PlugAPI({
     "email": "",
     "password": ""
