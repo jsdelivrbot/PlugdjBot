@@ -1,3 +1,3 @@
 PlugdjBot
 =========
-test
+A bot I made. For personal uses only
