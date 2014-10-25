@@ -161,22 +161,22 @@
         return m;
     };
 
-    var botCreator = "Matthew aka. Yemasthui";
+    var botCreator = "Matthew aka. Yemasthui. Edited by Natzki";
     var botCreatorIDs = [];
 
     var basicBot = {
-        version: "2.1.1",
+        version: "0.7.2",
         status: false,
-        name: "basicBot",
+        name: "mcOBot",
         loggedInID: null,
-        scriptLink: "https://rawgit.com/Yemasthui/basicBot/master/basicBot.js",
-        cmdLink: "http://git.io/245Ppg",
+        scriptLink: "https://rawgit.com/natzki/PlugdjBot/master/Bot.js",
+        cmdLink: "http://git.io/50ox2Q",
         chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
         settings: {
-            botName: "basicBot",
+            botName: "mcoBot",
             language: "english",
             chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
             maximumAfk: 120,
