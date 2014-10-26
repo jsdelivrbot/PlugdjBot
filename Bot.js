@@ -2822,7 +2822,7 @@
                     if (!basicBot.commands.executable(this.rank, chat)) return void (0);
                     else {
                         if (typeof basicBot.settings.twitterLink === "string")
-                            API.sendChat(subChat(basicBot.chat.twitter, {name: chat.un, link: basicBot.settings.twitterLink}));
+                            API.sendChat(subChat(basicBot.chat.facebook, {name: chat.un, link: basicBot.settings.twitterLink}));
                     }
                 }
             }
