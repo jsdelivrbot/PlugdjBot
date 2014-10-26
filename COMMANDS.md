@@ -99,9 +99,9 @@ User
 |!join | | join the roulette if it's up |
 |!leave | | leave the roulette if you joined |
 |!link | | when the user is the DJ, give a link to the current song |
-|!op | | links to the OverPlayed list (if set in the settings) |
+|!op | | links to the OverPlayed list (Coming soon) |
 |!ping | | pong! |
-|!rules | | links to the rules (if set in the settings) |
-|!theme | | links to the room's theme (if set in the settings) |
-|!website | | links to the room's website (if set in the settings) |
-|!youtube | | links to the room's youtube page (if set in the settings) |
+|!rules | | links to the rules |
+|!theme | | links to the room's theme (Coming soon) |
+|!website | | links to the room's website |
+|!youtube | | links to the room's youtube page (Coming soon) |
