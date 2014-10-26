@@ -2465,7 +2465,7 @@
                         else msg += 'OFF';
                         msg += '. ';
                         msg += basicBot.chat.afksremoved + ": " + basicBot.room.afkList.length + '. ';
-                        msg += basicBot.chat.afklimit + ': ' + basicBot.settings.maximumAfk + '. ';
+                        msg += basicBot.chat.afklimit + ': ' + basicBot.settings.maximumAfk + ' Minutes. ';
 
                         msg += 'Bouncer+: ';
                         if (basicBot.settings.bouncerPlus) msg += 'ON';
@@ -2496,6 +2496,8 @@
                         var durationOnline = Date.now() - launchT;
                         var since = basicBot.roomUtilities.msToStr(durationOnline);
                         msg += subChat(basicBot.chat.activefor, {time: since});
+                        
+                        msg +='Version number: ' + basicBot.version + '. '
 
                         return API.sendChat(msg);
                     }
