@@ -167,7 +167,7 @@
     var basicBot = {
         version: "0.7.4",
         status: false,
-        name: "mcOBot",
+        name: "McoBot",
         loggedInID: null,
         scriptLink: "https://rawgit.com/natzki/PlugdjBot/master/Bot.js",
         cmdLink: "http://git.io/50ox2Q",
@@ -2810,24 +2810,6 @@
                     }
                 }
             },
-        
-    
-    
-            twitterCommand: {
-                command: 'twitter',
-                rank: 'user',
-                type: 'exact',
-                functionality: function (chat, cmd) {
-                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
-                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
-                    else {
-                        if (typeof basicBot.settings.twitterLink === "string")
-                            API.sendChat(subChat(basicBot.chat.facebook, {name: chat.un, link: basicBot.settings.twitterLink}));
-                    }
-                }
-            }
-        }
-    };
 
     loadChat(basicBot.startup);
 }).call(this);
