@@ -165,7 +165,7 @@
     var botCreatorIDs = [];
 
     var basicBot = {
-        version: "0.7.6",
+        version: "0.8.0",
         status: false,
         name: "McoBot",
         loggedInID: null,
