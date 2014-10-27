@@ -10,9 +10,9 @@
 
     "welcome": "/me Welcome %%NAME%%",
     "welcomeback": "/me Welcome back, %%NAME%%",
-    "songknown": "/me :repeat: This song has been played %%PLAYS%% time(s) in the last %%TIMETOTAL%%, last play was %%LASTTIME%% ago. :repeat:",
+    "songknown": "/me This song has been played %%PLAYS%% time(s) in the last %%TIMETOTAL%%, last play was %%LASTTIME%% ago.",
     "timelimit": "/me @%%NAME%%, your song is longer than %%MAXLENGTH%% minutes, you need permission to play longer songs.",
-    "permissionownsong": "/me :up: @%%NAME%% has permission to play their own production!",
+    "permissionownsong": "/me @%%NAME%% has permission to play their own production!",
     "isblacklisted": "/me This track is on the %%BLACKLIST%% blacklist! Skipping...",
 
 
@@ -36,11 +36,11 @@
     "afkremove": "/me @%%NAME%%, you have been removed for being afk for %%TIME%%. You were at position %%POSITION%%. Chat at least once every %%MAXIMUMAFK%% minutes if you want to play a song.",
 
 
-    "caps": "/me @%%NAME%%, unglue your capslock button please.",
+    "caps": "/me @%%NAME%%, unglue your capslock button pls lol.",
     "askskip": "/me @%%NAME%%, don't ask for skips.",
     "spam": "/me @%%NAME%%, please don't spam.",
     "roomadvertising": "/me @%%NAME%%, don't post links to other rooms please.",
-    "adfly": "/me @%%NAME%%, please change your autowoot program. We suggest PlugCubed: http://plugcubed.net/",
+    "adfly": "/me @%%NAME%%, please don't post adf.ly links please.",
 
 
     "invalidtime": "/me [@%%NAME%%] Invalid time specified.",
@@ -73,7 +73,7 @@
     "maximumafktimeset": "/me [@%%NAME%%] Maximum afk duration set to %%TIME%% minutes.",
     "afkstatusreset": "/me [@%%NAME%%] Reset the afk status of @%%USERNAME%%.",
     "inactivefor": "/me [@%%NAME%%] @%%USERNAME%% has been inactive for %%TIME%%.",
-    "autowoot": "/me We recommend PlugCubed for autowooting: http://plugcubed.net/",
+    "autowoot": "/me We recommend Tastyplug for autowooting: http://fungustime.pw/tastyplug",
     "brandambassador": "/me A Brand Ambassador is the voice of the plug.dj users. They promote events, engage the community and share the plug.dj message around the world. For more info: http://blog.plug.dj/brand-ambassadors/",
     "bouncerplusrank": "/me [@%%NAME%%] You have to be manager or up to enable Bouncer+.",
     "chatcleared": "/me [@%%NAME%%] Cleared the chat.",
@@ -89,6 +89,7 @@
     "notinwaitlist": "/me @%%NAME%%, you are not on the waitlist.",
     "eta": "/me @%%NAME%% you will reach the booth in approximately %%TIME%%.",
     "facebook": "/me Like us on facebook: %%LINK%%",
+    "twitter": "/me Follow us on twitter: %%LINK%%",
     "starterhelp": "/me This image will get you started on plug: %%LINK%%",
     "roulettejoin": "/me @%%NAME%% joined the roulette! (!leave if you regret it.)",
     "jointime": "/me [@%%NAMEFROM%%] @%%USERNAME%% has been in the room for %%TIME%%.",
