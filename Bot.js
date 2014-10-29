@@ -1509,7 +1509,7 @@
                 }
             },
 
-            cookieCommand: {
+        /*    cookieCommand: {
                 command: 'cookie',
                 rank: 'user',
                 type: 'startsWith',
@@ -1533,6 +1533,63 @@
                     'gives you a rainbow cookie made with love :heart:',
                     'gives you an old cookie that was left out in the rain, it\'s moldy.',
                     'bakes you fresh cookies, it smells amazing.'
+                ],
+                getCookie: function () {
+                    var c = Math.floor(Math.random() * this.cookies.length);
+                    return this.cookies[c];
+                },
+                functionality: function (chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+                    else {
+                        var msg = chat.message;
+
+                        var space = msg.indexOf(' ');
+                        if (space === -1) {
+                            API.sendChat(basicBot.chat.eatcookie);
+                            return false;
+                        }
+                        else {
+                            var name = msg.substring(space + 2);
+                            var user = basicBot.userUtilities.lookupUserName(name);
+                            if (user === false || !user.inRoom) {
+                                return API.sendChat(subChat(basicBot.chat.nousercookie, {name: name}));
+                            }
+                            else if (user.username === chat.un) {
+                                return API.sendChat(subChat(basicBot.chat.selfcookie, {name: name}));
+                            }
+                            else {
+                                return API.sendChat(subChat(basicBot.chat.cookie, {nameto: user.username, namefrom: chat.un, cookie: this.getCookie()}));
+                            }
+                        }
+                    }
+                }
+            },  */
+            
+            cookieCommand: {
+                command: 'spook',
+                rank: 'user',
+                type: 'startsWith',
+                cookies: ['has spooked you with a fake spider!',
+                    'has given you a soft homemade bloody plush bear!',
+                    'has given you a plain, dry, old spider web. It was on the floor. Gross.',
+                    'gives you some LSD. What, no skeletons and sprinkles? 0/10 would not touch.',
+                    'gives you a spooky mirror. Oh wait, that\'s you. Bleck!',
+                    'gives you an enormous skeleton. Poking it gives you more skeletons. Weird.',
+                    'gives you a fortune spider. It reads "Why aren\'t you working on any halloween decoration?"',
+                    'gives you a fortune spider. It reads "Give that special someone a spooky compliment"',
+                    'gives you a fortune spider. It reads "Take a risk!"',
+                    'gives you a fortune spider. It reads "Go outside in the dark."',
+                    'gives you a fortune spider. It reads "Don\'t forget to eat your veggies!"',
+                    'gives you a fortune spider. It reads "Do you even spook?"',
+                    'gives you a fortune spider. It reads "m1337 pls"',
+                    'gives you a fortune spider. It reads "If you move your tentacles, you\'ll get all the ladies."',
+                    'gives you a fortune spider. It reads "I love you."',
+                    'gives you a Golden spider. You can\'t escape it because it is made of gold. Dammit.',
+                    'gives you a piece of flesh with a glass of blood!',
+                    'gives you a rainbow spider made with rainbow webs.',
+                    'gives you an old spider that was left out in the rain, it\'s moldy.',
+                    'bakes you fresh fingernails, they smell amazing.'
                 ],
                 getCookie: function () {
                     var c = Math.floor(Math.random() * this.cookies.length);
