@@ -1567,14 +1567,14 @@
             },  */
             
             cookieCommand: {
-                command: 'spook',
+                command: 'cookie',
                 rank: 'user',
                 type: 'startsWith',
                 cookies: ['has spooked you with a fake spider!',
                     'has given you a soft homemade bloody plush bear!',
                     'has given you a plain, dry, old spider web. It was on the floor. Gross.',
                     'gives you some LSD. What, no skeletons and sprinkles? 0/10 would not touch.',
-                    'gives you a spooky mirror. Oh wait, that\'s you. Bleck!',
+                    'gives you a spooky mirror. Oh wait, thats you. Bleck!',
                     'gives you an enormous skeleton. Poking it gives you more skeletons. Weird.',
                     'gives you a fortune spider. It reads "Why aren\'t you working on any halloween decoration?"',
                     'gives you a fortune spider. It reads "Give that special someone a spooky compliment"',
