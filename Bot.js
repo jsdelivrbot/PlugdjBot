@@ -2445,24 +2445,24 @@
                     if (!basicBot.commands.executable(this.rank, chat)) return void (0);
                     else {
                         var from = chat.un;
-                        var msg = '/me [@' + from + ']                 ';
+                        var msg = '/me [@' + from + '] ';
 
                         msg += basicBot.chat.afkremoval + ': ';
                         if (basicBot.settings.afkRemoval) msg += 'ON';
                         else msg += 'OFF';
                         msg += '. ';
-                        msg += basicBot.chat.afksremoved + ": " + basicBot.room.afkList.length + '.                    ';
-                        msg += basicBot.chat.afklimit + ': ' + basicBot.settings.maximumAfk + ' Minutes.               ';
+                        msg += basicBot.chat.afksremoved + ": " + basicBot.room.afkList.length + '. ';
+                        msg += basicBot.chat.afklimit + ': ' + basicBot.settings.maximumAfk + ' Minutes. ';
 
                         msg += 'Bouncer+: ';
                         if (basicBot.settings.bouncerPlus) msg += 'ON';
                         else msg += 'OFF';
-                        msg += '.                         ';
+                        msg += '. ';
 
                         msg += basicBot.chat.lockguard + ': ';
                         if (basicBot.settings.lockGuard) msg += 'ON';
                         else msg += 'OFF';
-                        msg += '.                   ';
+                        msg += '. ';
 
                         msg += basicBot.chat.cycleguard + ': ';
                         if (basicBot.settings.cycleGuard) msg += 'ON';
@@ -2477,7 +2477,7 @@
                         msg += basicBot.chat.chatfilter + ': ';
                         if (basicBot.settings.filterChat) msg += 'ON';
                         else msg += 'OFF';
-                        msg += '.                            ';
+                        msg += '. ';
 
                         var launchT = basicBot.room.roomstats.launchTime;
                         var durationOnline = Date.now() - launchT;
