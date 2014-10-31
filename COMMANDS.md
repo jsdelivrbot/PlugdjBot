@@ -89,12 +89,13 @@ User
 |:------:|:---------:|:--------------------------------------:|
 |!autowoot | | links to PlugCubed, the advised script/plugin to use for autowooting |
 |!ba | | explains the Brand Ambassador rank |
+|!bodil40 | | Oh, this does.. umm.. nothing? |
 |!commands | | gives a link to the commands |
 |!cookie | (@user) | give a cookie to user |
 |!dclookup / !dc | | use dclookup on yourself |
 |!emoji | | a link to a list with emoji's |
 |!eta | | shows how long before you reach the booth |
-|!fb | | links to the room's Facebook page (if set in the settings) |
+|!facebook / !fb | | links to the room's Facebook page (if set in the settings) |
 |!help | | links to an image to help get people started on plug |
 |!join | | join the roulette if it's up |
 |!leave | | leave the roulette if you joined |
@@ -104,4 +105,4 @@ User
 |!rules | | links to the rules |
 |!theme | | links to the room's theme (Coming soon) |
 |!website | | links to the room's website |
-|!youtube | | links to the room's youtube page (Coming soon) |
+|!youtube / !yt | | links to the room's youtube page (Coming soon) |
