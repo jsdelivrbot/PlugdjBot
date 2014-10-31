@@ -1567,7 +1567,7 @@
             },  */
             
             cookieCommand: {
-                command: 'spook',
+                command: 'sp00k',
                 rank: 'user',
                 type: 'startsWith',
                 cookies: ['has spooked you with a fake spider!',
