@@ -2480,8 +2480,8 @@
                 }
             },
 
-            creatorCommand: {
-                command: 'creator',
+            sourceCommand: {
+                command: 'source',
                 rank: 'user',
                 type: 'exact',
                 functionality: function (chat, cmd) {
