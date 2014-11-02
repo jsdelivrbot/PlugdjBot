@@ -89,20 +89,21 @@ User
 |:------:|:---------:|:--------------------------------------:|
 |!autowoot | | links to PlugCubed, the advised script/plugin to use for autowooting |
 |!ba | | explains the Brand Ambassador rank |
-|!bodil40 | | Oh, this does.. umm.. nothing? |
+|!bodil40 | | You don't want to know... |
 |!commands | | gives a link to the commands |
 |!cookie | (@user) | give a cookie to user |
+|!creator | | Displays creators |
 |!dclookup / !dc | | use dclookup on yourself |
 |!emoji | | a link to a list with emoji's |
 |!eta | | shows how long before you reach the booth |
-|!facebook / !fb | | links to the room's Facebook page (if set in the settings) |
+|!fb | | links to the room's Facebook page (if set in the settings) |
 |!help | | links to an image to help get people started on plug |
 |!join | | join the roulette if it's up |
 |!leave | | leave the roulette if you joined |
 |!link | | when the user is the DJ, give a link to the current song |
-|!op | | links to the OverPlayed list (Coming soon) |
+|!op | | links to the OverPlayed list (if set in the settings) |
 |!ping | | pong! |
-|!rules | | links to the rules |
-|!theme | | links to the room's theme (Coming soon) |
-|!website | | links to the room's website |
-|!youtube / !yt | | links to the room's youtube page (Coming soon) |
+|!rules | | links to the rules (if set in the settings) |
+|!theme | | links to the room's theme (if set in the settings) |
+|!website | | links to the room's website (if set in the settings) |
+|!youtube | | links to the room's youtube page (if set in the settings) |
