@@ -161,11 +161,13 @@
         return m;
     };
 
-    var botCreator = "Matthew aka. Yemasthui. Edited by Natzki";
+    var botCreator = {
+        names: "Bot created by Yemasthui. Edited by Natzki."
+    }
     var botCreatorIDs = [];
 
     var basicBot = {
-        version: "0.9.0",
+        version: "1.0.0",
         status: false,
         name: "McoBot",
         loggedInID: null,
