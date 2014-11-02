@@ -2480,8 +2480,8 @@
                 }
             },
 
-            /* sourceCommand: {
-                command: 'source',
+            creatorCommand: {
+                command: 'creator',
                 rank: 'user',
                 type: 'exact',
                 functionality: function (chat, cmd) {
@@ -2491,7 +2491,7 @@
                         API.sendChat('/me This bot was made by ' + botCreator + '.');
                     }
                 }
-            }, */
+            }, 
 
             statusCommand: {
                 command: 'status',
