@@ -161,9 +161,7 @@
         return m;
     };
 
-    var botCreator = {
-        names: "Bot created by Yemasthui. Edited by Natzki."
-    }
+    var botCreator = "Yemasthui. It was customized by Natzki"
     var botCreatorIDs = [];
 
     var basicBot = {
@@ -2482,7 +2480,7 @@
                 }
             },
 
-            sourceCommand: {
+            /* sourceCommand: {
                 command: 'source',
                 rank: 'user',
                 type: 'exact',
@@ -2493,7 +2491,7 @@
                         API.sendChat('/me This bot was made by ' + botCreator + '.');
                     }
                 }
-            },
+            }, */
 
             statusCommand: {
                 command: 'status',
