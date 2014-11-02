@@ -161,7 +161,7 @@
         return m;
     };
 
-    var botCreator = "Yemasthui. It was customized by Natzki"
+    var botCreator = "Yemasthui. It was customized by Natzki";
     var botCreatorIDs = [];
 
     var basicBot = {
