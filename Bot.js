@@ -1509,7 +1509,7 @@
                 }
             },
 
-        /*    cookieCommand: {
+            cookieCommand: {
                 command: 'cookie',
                 rank: 'user',
                 type: 'startsWith',
@@ -1564,9 +1564,9 @@
                         }
                     }
                 }
-            },  */
+            },  
             
-            cookieCommand: {
+            /* cookieCommand: {
                 command: 'sp00k',
                 rank: 'user',
                 type: 'startsWith',
@@ -1621,7 +1621,7 @@
                         }
                     }
                 }
-            },
+            }, */
 
             cycleCommand: {
                 command: 'cycle',
