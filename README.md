@@ -8,6 +8,8 @@ Commands:
 X specifies a number
 arguments between ( ) are optional
 
+Any settings made by commands will be reset to default, once the bot has restarted
+
 
 Manager
 -------
@@ -15,11 +17,11 @@ Manager
 |Command | Arguments |  Description |
 |:------:|:---------:|:--------------------------------------:|
 |!afklimit | X | sets the maximum afk time |
-|!clearchat | |clears the chat |
+|!clearchat | | clears the chat |
 |!cycle | | toggle DJ cycle |
 |!cycletimer | X | set the maximum DJ cycle time for when cycleguard is enabled |
 |!locktimer | X | set the maximum time the waitlist can be locked if lockguard is enabled |
-|!refresh | | refreshes the browser of whoever runs the bot |
+|!refresh | | refreshes the browser of whoever runs the bot (kills the bot as well!) |
 |!usercmdcd | X | set the cooldown on commands by grey users |
 |!usercommands | | toggle user commands |
 
@@ -60,9 +62,9 @@ Bouncer
 |!filter | | toggles the chat filter |
 |!jointime | @user | shows how long the user has been in the room |
 |!kick | (X) | kicks user for X minutes, default is 0.25 minutes (15 seconds) |
-|!kill | ||shut down the bot |
+|!kill | | shut down the bot |
 |!lockguard | | toggle the lockguard |
-|!lockskip | (reason) | skip the song and move the dj back up (the position can be set with !lockskippos) |
+|!lockskip | (reason) | skip the song and move the dj back up (the position can be set with !lockskippos). Lockskip's include: theme, op, history, mix, sound, offensive, nsfw, unavailable, stupid, other  |
 |!lockskippos | X | set the position to which lockskip moves the dj |
 |!motd | (X)/(message) | when no argument is specified, returns the Message of the Day, when X is specified, the MotD is given every X songs, when "message" is given, it sets the MotD to message |
 |!mute | @user (X) | mute user, for X minutes if X is specified, otherwise for an undefined period |
@@ -91,7 +93,6 @@ User
 
 |Command | Arguments |  Description |
 |:------:|:---------:|:--------------------------------------:|
-|!autowoot | | links to PlugCubed, the advised script/plugin to use for autowooting |
 |!ba | | explains the Brand Ambassador rank |
 |!bodil40 | | You don't want to know... |
 |!commands | | gives a link to the commands |
@@ -100,14 +101,15 @@ User
 |!dclookup / !dc | | use dclookup on yourself |
 |!emoji | | a link to a list with emoji's |
 |!eta | | shows how long before you reach the booth |
-|!fb | | links to the room's Facebook page (if set in the settings) |
+|!fb | | links to the room's Facebook page |
 |!help | | links to an image to help get people started on plug |
 |!join | | join the roulette if it's up |
 |!leave | | leave the roulette if you joined |
 |!link | | when the user is the DJ, give a link to the current song |
-|!op | | links to the OverPlayed list (if set in the settings) |
+|!op | | links to the OverPlayed list |
 |!ping | | pong! |
-|!rules | | links to the rules (if set in the settings) |
-|!theme | | links to the room's theme (if set in the settings) |
-|!website | | links to the room's website (if set in the settings) |
-|!youtube | | links to the room's youtube page (if set in the settings) |
+|!rules | | links to the rules |
+|!theme | | links to the room's theme |
+|!twitter | | links to the room's twitter page |
+|!website | | links to the room's website |
+|!youtube | | links to the room's youtube page |
