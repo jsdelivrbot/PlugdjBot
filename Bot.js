@@ -1735,7 +1735,7 @@
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                     if (!basicBot.commands.executable(this.rank, chat)) return void (0);
                     else {
-                        var link = 'http://www.emoji-cheat-sheet.com/';
+                        var link = 'http://goo.gl/lhDGES';
                         API.sendChat(subChat(basicBot.chat.emojilist, {link: link}));
                     }
                 }
@@ -1948,7 +1948,7 @@
                         var dj = API.getDJ().id;
                         var isDj = false;
                         if (dj === chat.uid) isDj = true;
-                        if (perm >= 1 || isDj) {
+                        if (perm >= 0 || isDj) {
                             if (media.format === 1) {
                                 var linkToSong = "https://www.youtube.com/watch?v=" + media.cid;
                                 API.sendChat(subChat(basicBot.chat.songlink, {name: from, link: linkToSong}));
