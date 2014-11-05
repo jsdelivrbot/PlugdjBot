@@ -826,7 +826,7 @@
                 basicBot.room.historyList.push([obj.media.cid, +new Date()]);
             }
             var newMedia = obj.media;
-            if (basicBot.settings.timeGuard && newMedia.duration > basicBot.settings.maximumSongLength * 60 && !basicBot.room.roomevent) {
+            if (basicBot.settings.timeGuard && newMedia.duration > basicBot.settings.maximumSongLength + 2 && !basicBot.room.roomevent) {
                 var name = obj.dj.username;
                 API.sendChat(subChat(basicBot.chat.timelimit, {name: name, maxlength: basicBot.settings.maximumSongLength}));
                 API.moderateForceSkip();
