@@ -40,7 +40,7 @@
     "askskip": "/me @%%NAME%%, don't ask for skips.",
     "spam": "/me @%%NAME%%, please don't spam.",
     "roomadvertising": "/me @%%NAME%%, don't post links to other rooms please.",
-    "adfly": "/me @%%NAME%%, please don't post adf.ly links please.",
+    "adfly": "/me @%%NAME%%, please don't post adf.ly links.",
 
 
     "invalidtime": "/me [@%%NAME%%] Invalid time specified.",
@@ -134,5 +134,7 @@
     "voteratio": "/me [@%%NAME%%] @%%USERNAME%% ~ woots: ' + %%WOOT%% + ', mehs: %%MEHS%%, ratio (w/m): %%RATIO%%.",
     "website": "/me Please visit our website: %%LINK%%",
     "youtube": "/me [%%NAME%%] Subscribe to us on youtube: %%LINK%%",
+    "support": "/me If you have any problems, please e-mail %%LINK%%",
+    "bodil40": "/me HAHAHAHEAHEAHEAHEHAEHAEHAHEAHEAHEHEAHEAHEAH!!!!!!!",
     "songstatistics": "/me %%ARTIST%% - %%TITLE%%: %%WOOTS%%W/%%GRABS%%G/%%MEHS%%M."
 }
