@@ -110,11 +110,13 @@ User
 |!join | | join the roulette if it's up |
 |!leave | | leave the roulette if you joined |
 |!link | | give a link to the current song |
+|!love | @user | tells the user how much you love them |
 |!manager | | explains how to get manager |
 |!op | | links to the OverPlayed list |
 |!ping | | pong! |
 |!residentdj / !rdj | | explains how to get Resident DJ |
 |!rules | | links to the rules |
+|!shoe | @user | throws a shoe at user |
 |!support | | links to the room's support E-Mail |
 |!theme | | links to the room's theme |
 |!twitter | | links to the room's twitter page |
