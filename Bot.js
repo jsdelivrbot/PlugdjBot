@@ -1576,7 +1576,7 @@
                     'threw a shoe at you, but you catch it and throw it back.',
                     'threw a shoe at you, but it missed.',
                     'threw a shoe at you, but it disappeared, never to be seen again.',
-                    'threw a shoe at you, but it bounced off.'
+                    'threw a shoe at you, but it bounced off.',
                     'has failed COMPLETELY by throwing a shoe at you, and hit himself.'
                 ],
                 getShoe: function () {
