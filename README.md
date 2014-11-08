@@ -1,6 +1,6 @@
-PlugdjBot
+plug.dj Bot
 =========
-A bot I made. For personal uses only
+A bot I made. For personal uses only.
 
 Commands:
 =========
