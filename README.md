@@ -84,7 +84,7 @@ Resident DJ
 
 |Command | Arguments |  Description |
 |:------:|:---------:|:--------------------------------------:|
-|!link | | give a link to the current song
+|!comingsoon | | Coming soon... |
 
 
 
@@ -93,22 +93,29 @@ User
 
 |Command | Arguments |  Description |
 |:------:|:---------:|:--------------------------------------:|
+|!admin | | explains the Admin rank |
 |!ba | | explains the Brand Ambassador rank |
-|!bodil40 | | You don't want to know... |
+|!bodil40 | | you don't want to know... |
+|!bouncer | | explains how to get bouncer |
+|!cohost | | explains how to get co-host |
 |!commands | | gives a link to the commands |
 |!cookie | (@user) | give a cookie to user |
-|!creator | | Displays creators |
+|!creator | | displays creators |
 |!dclookup / !dc | | use dclookup on yourself |
 |!emoji | | a link to a list with emoji's |
 |!eta | | shows how long before you reach the booth |
 |!fb | | links to the room's Facebook page |
 |!help | | links to an image to help get people started on plug |
+|!host | | explains the host rank |
 |!join | | join the roulette if it's up |
 |!leave | | leave the roulette if you joined |
-|!link | | when the user is the DJ, give a link to the current song |
+|!link | | give a link to the current song |
+|!manager | | explains how to get manager |
 |!op | | links to the OverPlayed list |
 |!ping | | pong! |
+|!residentdj / !rdj | | explains how to get Resident DJ |
 |!rules | | links to the rules |
+|!support | | links to the room's support E-Mail |
 |!theme | | links to the room's theme |
 |!twitter | | links to the room's twitter page |
 |!website | | links to the room's website |
