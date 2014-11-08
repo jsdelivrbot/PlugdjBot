@@ -1658,11 +1658,11 @@
                 }
             },  
             
-            /* cookieCommand: {
-                command: 'sp00k',
+            spookCommand: {
+                command: ['spook', 'sp00k'],
                 rank: 'user',
                 type: 'startsWith',
-                cookies: ['has spooked you with a fake spider!',
+                spooks: ['has spooked you with a fake spider!',
                     'has given you a soft homemade bloody plush bear!',
                     'has given you a plain, dry, old spider web. It was on the floor. Gross.',
                     'gives you some LSD. What, no skeletons and sprinkles? 0/10 would not touch.',
@@ -1683,9 +1683,9 @@
                     'gives you an old spider that was left out in the rain, it\'s moldy.',
                     'bakes you fresh fingernails, they smell amazing.'
                 ],
-                getCookie: function () {
-                    var c = Math.floor(Math.random() * this.cookies.length);
-                    return this.cookies[c];
+                getSpook: function () {
+                    var c = Math.floor(Math.random() * this.spooks.length);
+                    return this.spooks[c];
                 },
                 functionality: function (chat, cmd) {
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
@@ -1695,25 +1695,25 @@
 
                         var space = msg.indexOf(' ');
                         if (space === -1) {
-                            API.sendChat(basicBot.chat.eatcookie);
+                            API.sendChat(basicBot.chat.spooking);
                             return false;
                         }
                         else {
                             var name = msg.substring(space + 2);
                             var user = basicBot.userUtilities.lookupUserName(name);
                             if (user === false || !user.inRoom) {
-                                return API.sendChat(subChat(basicBot.chat.nousercookie, {name: name}));
+                                return API.sendChat(subChat(basicBot.chat.nouserspook, {name: name}));
                             }
                             else if (user.username === chat.un) {
-                                return API.sendChat(subChat(basicBot.chat.selfcookie, {name: name}));
+                                return API.sendChat(subChat(basicBot.chat.selfspook, {name: name}));
                             }
                             else {
-                                return API.sendChat(subChat(basicBot.chat.cookie, {nameto: user.username, namefrom: chat.un, cookie: this.getCookie()}));
+                                return API.sendChat(subChat(basicBot.chat.spook, {nameto: user.username, namefrom: chat.un, cookie: this.getSpook()}));
                             }
                         }
                     }
                 }
-            }, */
+            },
 
             cycleCommand: {
                 command: 'cycle',
