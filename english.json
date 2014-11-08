@@ -90,7 +90,7 @@
     "throwlove": "/me kisses the air",
     "nouserlove": "/em doesn't see %%NAME%% in room and just stands there and starts to cry.",
     "selflove": "/me @%%NAME%%, Well, you are a bit narcissistic, aren't you?",
-    "shoe": "/me @%%NAMETO%%, @%%NAMEFROM%% %%COOKIE%%",
+    "love": "/me @%%NAMETO%%, @%%NAMEFROM%% %%COOKIE%%",
     "cycleguardtime": "/me [@%%NAME%%] The cycleguard is set to %%TIME%% minute(s).",
     "dclookuprank": "/me [@%%NAME%%] Only bouncers and above can do a lookup for others.",
     "emojilist": "/me Emoji list: %%LINK%%",
