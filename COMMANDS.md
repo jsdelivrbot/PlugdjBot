@@ -101,6 +101,7 @@ User
 |!emoji | | a link to a list with emoji's |
 |!eta | | shows how long before you reach the booth |
 |!fb | | links to the room's Facebook page |
+|!flip | | randomly flips a coin using the newest Math.random(). Either Heads or Tails |
 |!help | | links to an image to help get people started on plug |
 |!host | | explains the host rank |
 |!join | | join the roulette if it's up |
