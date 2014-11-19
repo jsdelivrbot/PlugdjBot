@@ -2670,7 +2670,6 @@
                         var user1 = basicBot.userUtilities.lookupUserName(name1);
                         var user2 = basicBot.userUtilities.lookupUserName(name2);
                         if (typeof user1 === 'boolean' || typeof user2 === 'boolean') return API.sendChat(subChat(basicBot.chat.swapinvalid, {name: chat.un}));
-                        if (user1.id === basicBot.loggedInID || user2.id === basicBot.loggedInID) return API.sendChat(subChat(basicBot.chat.addbottowaitlist, {name: chat.un}));
                         var p1 = API.getWaitListPosition(user1.id) + 1;
                         var p2 = API.getWaitListPosition(user2.id) + 1;
                         if (p1 < 0 || p2 < 0) return API.sendChat(subChat(basicBot.chat.swapwlonly, {name: chat.un}));
