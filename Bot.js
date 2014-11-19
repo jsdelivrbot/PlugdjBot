@@ -2280,7 +2280,6 @@
                         }
                         var user = basicBot.userUtilities.lookupUserName(name);
                         if (typeof user === 'boolean') return API.sendChat(subChat(basicBot.chat.invaliduserspecified, {name: chat.un}));
-                        if (user.id === basicBot.loggedInID) return API.sendChat(subChat(basicBot.chat.addbotwaitlist, {name: chat.un}));
                         if (!isNaN(pos)) {
                             API.sendChat(subChat(basicBot.chat.move, {name: chat.un}));
                             basicBot.userUtilities.moveUser(user.id, pos, false);
