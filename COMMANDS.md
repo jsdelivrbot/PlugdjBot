@@ -28,7 +28,10 @@ Bouncer+
 |:------:|:---------:|:--------------------------------------:|
 |!add | @user | add user to the waitlist |
 |!afkremoval | | toggles the afk check |
+|!alertbot | | alerts the bot manually |
 |!autoskip | | skips songs automatically when they're done (use when the circles-bug happens) |
+|!available | | marks the bot as available |
+|!away | | marks the bot as AFK ans sets the status to away |
 |!bouncer+ | | disable bouncer+ |
 |!deletechat | @user | delete all the chats by a certain user |
 |!lock | | lock the waitlist |
@@ -109,6 +112,7 @@ User
 |!link | | give a link to the current song |
 |!love | (@user) | tells user how much you love them |
 |!manager | | explains how to get manager |
+|!mlg | | Still testing... |
 |!op | | links to the OverPlayed list |
 |!ping | | pong! |
 |!residentdj / !rdj | | explains how to get Resident DJ |
