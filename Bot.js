@@ -1622,7 +1622,7 @@
                     'is about to hug you...',
                     'is hugging you right now. He/she won\'t let go.',
                     'has just fallen in love with you! :heart:',
-                    'loves you so much, he/she would text you with 5 or less batery percent.',
+                    'loves you so much, he/she would text you with 5 or less battery percent.',
                     'loves you so much, he/she would die for your sake.',
                     'loves you so much, he/she would give you his/her cookies'
                 ],
@@ -2040,7 +2040,7 @@
                         var dj = API.getDJ().id;
                         var isDj = false;
                         if (dj === chat.uid) isDj = true;
-                        if (perm >= 0 || isDj) {
+                        if (perm >= 0) {
                             if (media.format === 1) {
                                 var linkToSong = "https://www.youtube.com/watch?v=" + media.cid;
                                 API.sendChat(subChat(basicBot.chat.songlink, {name: from, link: linkToSong}));
@@ -2782,6 +2782,20 @@
                     }
                 }
             },
+            
+            unicornCommand: {
+                command: 'unicorn',
+                rank: 'user',
+                type: 'exact',
+                functionality: function (chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+                    else {
+                        API.sendChat("UNICORNS!!!");
+                        API.chatLog("UNICORNS ARE FANCY!", true);
+                    }
+                }
+            },            
 
             unlockCommand: {
                 command: 'unlock',
