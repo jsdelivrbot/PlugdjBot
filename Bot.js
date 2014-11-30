@@ -165,7 +165,7 @@
     var botCreatorIDs = [];
 
     var basicBot = {
-        version: "1.0.0",
+        version: "1.0.5",
         status: false,
         name: "McoBot",
         loggedInID: null,
@@ -176,7 +176,7 @@
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
         settings: {
-            botName: "mcoBot",
+            botName: "McoBot",
             language: "english",
             chatLink: "https://rawgit.com/natzki/PlugdjBot/master/english.json",
             maximumAfk: 120,
