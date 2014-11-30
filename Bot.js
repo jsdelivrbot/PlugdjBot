@@ -19,7 +19,7 @@
         var basicBotStorageInfo = {
             time: Date.now(),
             stored: true,
-            version: basicBot.version
+            version: basicBot.settings.version
         };
         localStorage.setItem("basicBotStorageInfo", JSON.stringify(basicBotStorageInfo));
 
@@ -165,7 +165,6 @@
     var botCreatorIDs = [];
 
     var basicBot = {
-        version: "1.0.5",
         status: false,
         name: "McoBot",
         loggedInID: null,
@@ -177,6 +176,7 @@
         retrieveSettings: retrieveSettings,
         settings: {
             botName: "McoBot",
+            version: "1.0.5",
             language: "english",
             chatLink: "https://rawgit.com/natzki/PlugdjBot/master/english.json",
             maximumAfk: 120,
@@ -1170,7 +1170,7 @@
             if (emojibutton.length > 0) {
                 emojibutton[0].click();
             }
-            loadChat(API.sendChat(subChat(basicBot.chat.online, {botname: basicBot.settings.botName, version: basicBot.version})));
+            loadChat(API.sendChat(subChat(basicBot.chat.online, {botname: basicBot.settings.botName, version: basicBot.settings.version})));
         },
         commands: {
             executable: function (minRank, chat) {
@@ -2632,7 +2632,7 @@
                         var since = basicBot.roomUtilities.msToStr(durationOnline);
                         msg += subChat(basicBot.chat.activefor, {time: since});
                         
-                        msg +='Version number: ' + basicBot.version + '. '
+                        msg +='Version number: ' + basicBot.settings.version + '. '
 
                         return API.sendChat(msg);
                     }
