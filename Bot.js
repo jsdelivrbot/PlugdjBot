@@ -41,7 +41,7 @@
     var loadChat = function (cb) {
         if (!cb) cb = function () {
         };
-        $.get("https://rawgit.com/natzki/PlugdjBot/master/langIndex.json", function (json) {
+        $.get("https://cdn.jsdelivr.net/gh/natzki/PlugdjBot/langIndex.json", function (json) {
             var link = basicBot.chatLink;
             if (json !== null && typeof json !== "undefined") {
                 langIndex = json;
@@ -168,9 +168,9 @@
         status: false,
         name: "McoBot",
         loggedInID: null,
-        scriptLink: "https://rawgit.com/natzki/PlugdjBot/master/Bot.js",
+        scriptLink: "https://cdn.jsdelivr.net/gh/natzki/PlugdjBot/Bot.js",
         cmdLink: "http://git.io/50ox2Q",
-        chatLink: "https://rawgit.com/natzki/PlugdjBot/master/english.json",
+        chatLink: "https://cdn.jsdelivr.net/gh/natzki/PlugdjBot/english.json",
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
@@ -178,7 +178,7 @@
             botName: "McoBot",
             version: "1.0.5",
             language: "english",
-            chatLink: "https://rawgit.com/natzki/PlugdjBot/master/english.json",
+            chatLink: "https://cdn.jsdelivr.net/gh/natzki/PlugdjBot/english.json",
             maximumAfk: 120,
             afkRemoval: true,
             maximumDc: 60,
